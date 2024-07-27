@@ -58,3 +58,30 @@ To get started with the project, follow these steps:
                   └── example
                       └── weathermonitoring
                           └── ApiServiceTest.java
+
+## Test Cases
+
+### 1. System Setup
+- **Objective**: Verify that the system starts successfully and connects to the OpenWeatherMap API using a valid API key.
+- **Test**: Ensure the application initializes without errors and confirms connectivity to the API.
+
+### 2. Data Retrieval
+- **Objective**: Simulate API calls at configurable intervals and ensure the system retrieves weather data correctly.
+- **Test**: Verify that weather data for the specified locations is correctly fetched and parsed from the API response.
+
+### 3. Temperature Conversion
+- **Objective**: Test conversion of temperature values from Kelvin to Celsius (or Fahrenheit) based on user preference.
+- **Test**: Confirm that temperature values are accurately converted and reflected in the system.
+
+### 4. Daily Weather Summary
+- **Objective**: Simulate a sequence of weather updates over several days and verify daily summaries.
+- **Test**: Ensure that daily summaries include accurate calculations of average, maximum, and minimum temperatures, as well as the dominant weather condition.
+
+### 5. Alerting Thresholds
+- **Objective**: Define and configure user thresholds for temperature or weather conditions and verify alerting.
+- **Test**: Simulate weather data that exceeds or breaches the defined thresholds and check if alerts are correctly triggered.
+
+### 6. Visualizations
+- **Objective**: Test the generation and display of visualizations for daily weather summaries, historical trends, and triggered alerts.
+- **Test**: Ensure that visualizations are correctly generated and reflect the underlying data accurately.
+
