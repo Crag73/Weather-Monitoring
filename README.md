@@ -38,24 +38,23 @@ To get started with the project, follow these steps:
     mvn test
 
 ## Configuration
-
-    Polling Interval: Configure the interval for fetching weather data in the ApiService class or through application settings.
-    Alert Thresholds: Define and adjust alert thresholds within the code or application settings.
+   Polling Interval: Configure the interval for fetching weather data in the ApiService class or through application settings.
+   Alert Thresholds: Define and adjust alert thresholds within the code or application settings.
 
 ## Directory Structure
-src
-├── main
-│   └── java
-│       └── com
-│           └── example
-│               └── weathermonitoring
-│                   ├── Main.java
-│                   ├── ApiService.java
-│                   ├── WeatherData.java
-│                   └── WeatherCondition.java
-└── test
-    └── java
-        └── com
-            └── example
-                └── weathermonitoring
-                    └── ApiServiceTest.java
+      src
+      ├── main
+      │   └── java
+      │       └── com
+      │           └── example
+      │               └── weathermonitoring
+      │                   ├── Main.java
+      │                   ├── ApiService.java
+      │                   ├── WeatherData.java
+      │                   └── WeatherCondition.java
+      └── test
+          └── java
+              └── com
+                  └── example
+                      └── weathermonitoring
+                          └── ApiServiceTest.java
